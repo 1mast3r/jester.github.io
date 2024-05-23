@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jest Notice System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Jest Notice System</h1>
+    <div>
+        <label for="recipient">Recipient Name:</label>
+        <input type="text" id="recipient" placeholder="Enter recipient name">
+        <button onclick="sendNotice()">Send Notice</button>
+    </div>
+    <div>
+        <label for="noticeId">Notice ID:</label>
+        <input type="number" id="noticeId" placeholder="Enter notice ID">
+        <button onclick="getNoticeById()">Get Notice</button>
+    </div>
+    <div id="noticeResult"></div>
+    <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
